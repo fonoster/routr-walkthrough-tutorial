@@ -2,7 +2,7 @@
 
 ## Let's get started!
 
-Get up and running with Routr SIP Server by following this interactive tutorial.
+Get up and running with Routr by following this interactive tutorial.
 
 This guide will show how to install and run your own instance of Routr server. It'll also walk you through the steps of connecting to the server using the command-line tool and the web UI. 
 
@@ -16,15 +16,15 @@ Before we jump in, let's briefly go over what Routr can do.
 
 Routr is a sip proxy, location server, and registrar that provides a reliable and scalable SIP infrastructure for telephony carriers, communication service providers, and integrators.
 
-This tutorial will go over two mayor components of the project, Routr server and Routr CTL; helping you familiarize with the steps of deploying a new VoIP network.
+This tutorial will go over Routr's mayor components and will help you familiarize with the steps of deploying a new VoIP network.
 
 Continue on to the next step to begin the tutorial.
 
 ## Downloading and Installing Routr SIP Server
 
-Routr server is a standalone software and does not need any dependency to run. Routr runs on all mayor operative system, as well as microservices enviroment like [Docker](https://www.docker.com/)
+Routr server is a standalone software and does not requires of any dependencies to work. Routr runs on all mayor operative system, as well as microservices enviroments like [Docker](https://www.docker.com/)
 
-The first step in running a Routr server instance is downloading the server.
+The first step in running an instance of Routr to downloading the server.
 
 To download the server run this command:
 ```bash
@@ -44,7 +44,7 @@ Next, you’ll launch Routr server
 
 ## Launch the Server
 
-To run the server just `cd` into the directory you've just extracted and run the `routr` command.
+To run the server just change into the directory you've just extracted and run the `routr` command.
 
 To start the the server run this command:
 ```bash
@@ -57,23 +57,22 @@ Next, you will install the command-line tool.
 
 ## Installing the Command-Line tool
 
-The command-line tool will allow you to control and monitor a Routr instance. The command-line tool `rctl` ships as a separate component.
-Please open an additional cloud shell and install command-line.
+The command-line tool will allow you to control and monitor the Routr instance. The command-line tool `rctl` ships as a separate component. Please open an additional cloud shell and install command-line.
 
 <walkthrough-open-cloud-shell-button open-cloud-shell/>
 
-### Install command-line
+### Install the command-line using npm
 
-To install command-line tool run this command:
+Installing the npm package [routr-ctl](https://www.npmjs.com/package/routr-ctl) will provide you with the globally accessible `rctl` command. To install command-line tool run this command:
 ```bash
 npm install -g routr-ctl
 ```
 
 Next, you will login to the server using the Command-Line tool.
 
-## Login to a Routr instance using the Command-Line tool
+## Login to the Routr instance using the Command-Line tool
 
-To issue commands to a Routr instance you must first login.
+To issue commands to your Routr instance you must first login.
 
 To login to your instance run this command:
 ```bash
@@ -84,7 +83,7 @@ Next, you will issue some basic commands and launch the web UI.
 
 ## Issue basic commands
 
-The command-line tools allows you to issue commands to a Routr instance. The following are some examples.
+The command-line tools allows you to issue commands to your Routr instance. The following are some examples.
 
 ### Getting a list of carriers
 
