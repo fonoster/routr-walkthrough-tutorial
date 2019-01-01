@@ -24,7 +24,7 @@ Continue on to the next step to begin the tutorial.
 
 Routr server is a standalone software and does not require any dependencies to work. Routr runs on all mayor operative system, as well as a microservices environment like [Docker](https://www.docker.com/)
 
-The first step in running an instance of Routr to downloading the server.
+The first step in running an instance of Routr is downloading the server.
 
 To download the server run this command:
 ```bash
@@ -40,9 +40,9 @@ To extract the files run this command:
 tar xvfz routr-1.0.0-rc1_linux-x64_bin.tar.gz
 ```
 
-Next, you’ll launch Routr server
+Next, you’ll launch an instance of Routr server
 
-## Launch the Server
+## Launching the Server
 
 To run the server just change into the directory you've just extracted and run the `routr` command.
 
@@ -55,9 +55,9 @@ cd routr-1.0.0-rc1_linux-x64_bin && ./routr
 
 Next, you will install the command-line tool.
 
-## Installing the Command-Line tool
+## Installing the Command-Line Tool
 
-The command-line tool will allow you to control and monitor the Routr instance. The command-line tool `rctl` ships as a separate component. Please open an additional cloud shell and install command-line.
+The command-line tool will allow you to control and monitor the Routr instance. Please open an additional cloud shell and install the command-line.
 
 <walkthrough-open-cloud-shell-button open-cloud-shell/>
 
@@ -68,9 +68,9 @@ Installing the npm package [routr-ctl](https://www.npmjs.com/package/routr-ctl) 
 npm install -g routr-ctl
 ```
 
-Next, you will login to the server using the Command-Line tool.
+Next, you will login to the server using the command-line tool.
 
-## Login to the Routr instance using the Command-Line tool
+## Login to the Routr instance using the Command-Line Tool
 
 To issue commands to your Routr instance you must first login.
 
@@ -83,22 +83,22 @@ Next, you will issue some basic commands and launch the web UI.
 
 ## Issue basic commands
 
-The command-line tools allow you to issue commands to your Routr instance. The following are some examples.
+The command-line tools allow you to issue commands to your Routr instance. Here are some examples:
 
 ### Getting a list of carriers
 
-To list the available carriers run this command:
+To list the carriers available in your Routr instance run this command:
 ```bash
 rctl get gateways
 ```
 
 ### Getting a list of domains
 
-To see the available domains run this command:
+To see the available domains in your Routr instance run this command:
 ```bash
 rctl get domains
 ```
-### Launch the web UI (Bonus step)
+### Launching the web UI (Bonus step)
 
 To launch the web UI run this command
 ```bash
