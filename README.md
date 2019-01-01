@@ -1,6 +1,6 @@
 # Routr Walkthrough Tutorial
 
-Routr is an open-source SIP Server and tooling to deploy VoIP networks.
+[Routr](https://github.com/fonoster/routr) is an open-source SIP Server and tooling to deploy VoIP networks.
 
 This repository contains a tutorial to help you make the most of Routr and its tooling.
 
