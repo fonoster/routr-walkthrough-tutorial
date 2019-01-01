@@ -13,9 +13,9 @@ Click the **Next** button to move to the next step.
 
 ## What is Routr?
 
-Before we jump in, let's briefly go over what Routr SIP Server can do.
+Before we jump in, let's briefly go over what Routr can do.
 
-Routr SIP Server Lightweight sip proxy, location server, and registrar that provides a reliable and scalable SIP infrastructure for telephony carriers, communication service providers, and integrators.
+Routr is a sip proxy, location server, and registrar that provides a reliable and scalable SIP infrastructure for telephony carriers, communication service providers, and integrators.
 
 This tutorial will go over two mayor components of the project, Routr server and Routr CTL; helping you familiarize with the steps of deploying a new VoIP network.
 
