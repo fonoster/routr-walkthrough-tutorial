@@ -77,7 +77,7 @@ To issue commands to a Routr instance you must first login.
 
 To login to your instance run this command:
 ```bash
-rctl login -u admin -p changeit https://172.17.0.2:4567/api/v1beta1
+rctl login -u admin -p changeit https://127.0.0.1:4567/api/v1beta1
 ```
 
 Next, you will issue some basic commands and launch the web UI.
