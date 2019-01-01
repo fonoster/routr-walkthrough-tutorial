@@ -16,13 +16,13 @@ Before we jump in, let's briefly go over what Routr can do.
 
 Routr is a sip proxy, location server, and registrar that provides a reliable and scalable SIP infrastructure for telephony carriers, communication service providers, and integrators.
 
-This tutorial will go over Routr's mayor components and will help you familiarize with the steps of deploying a new VoIP network.
+This tutorial will go over Routr's major components and will help you familiarize with the steps of deploying a new VoIP network.
 
 Continue on to the next step to begin the tutorial.
 
 ## Downloading and Installing Routr SIP Server
 
-Routr server is a standalone software and does not requires of any dependencies to work. Routr runs on all mayor operative system, as well as microservices enviroments like [Docker](https://www.docker.com/)
+Routr server is a standalone software and does not require any dependencies to work. Routr runs on all mayor operative system, as well as a microservices environment like [Docker](https://www.docker.com/)
 
 The first step in running an instance of Routr to downloading the server.
 
@@ -33,7 +33,7 @@ wget https://github.com/fonoster/routr/releases/download/1.0.0-rc1/routr-1.0.0-r
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
 
-### Then extract the files
+### Then extract the files to the current directory
 
 To extract the files run this command:
 ```bash
@@ -83,7 +83,7 @@ Next, you will issue some basic commands and launch the web UI.
 
 ## Issue basic commands
 
-The command-line tools allows you to issue commands to your Routr instance. The following are some examples.
+The command-line tools allow you to issue commands to your Routr instance. The following are some examples.
 
 ### Getting a list of carriers
 
