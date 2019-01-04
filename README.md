@@ -6,6 +6,4 @@ This repository contains a tutorial to help you make the most of Routr and its t
 
 You can find the online documentation [here](https://routr.io/docs/overview). Click the open in Cloud Shell button below to run the tutorial.
 
-http://www.gstatic.com/cloudssh/images/open-btn.svg
-
 [![Open in Cloud Shell](https://www.gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/fonoster/routr-walkthrough-tutorial&tutorial=tutorial.md)
