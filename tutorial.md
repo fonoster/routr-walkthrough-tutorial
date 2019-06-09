@@ -4,7 +4,7 @@
 
 Get up and running with Routr by following this interactive tutorial.
 
-This guide will show how to install and run your own instance of Routr server. It'll also walk you through the steps of connecting to the server using the command-line tool and the web UI. 
+This guide shows how to install and run an instance of Routr server. It'll also walk you through the steps of connecting to the server using the command-line tool and the web UI. 
 
 **Time to complete**: About 10 minutes
 
@@ -16,9 +16,9 @@ Before we jump in, let's briefly go over what Routr can do.
 
 Routr is a sip proxy, location server, and registrar that provides a reliable and scalable SIP infrastructure for telephony carriers, communication service providers, and integrators.
 
-This tutorial will go over Routr's major components and will help you familiarize with the steps of deploying a new VoIP network.
+This tutorial goes over Routr's major components and can help you familiarize with the steps of deploying a new VoIP network.
 
-Continue on to the next step to begin the tutorial.
+Continue to the next step to begin the tutorial.
 
 ## Downloading and Installing Routr SIP Server
 
@@ -35,51 +35,51 @@ wget https://github.com/fonoster/routr/releases/download/1.0.0-rc2/routr-1.0.0-r
 
 ### Then extract the files to the current directory
 
-To extract the files run this command:
+To extract the files, run this command:
 ```bash
 tar xvfz routr-1.0.0-rc2_linux-x64_bin.tar.gz
 ```
 
-Next, you’ll launch an instance of Routr server
+Next, you'll launch an instance of Routr server.
 
 ## Launching the Server
 
-To run the server just change into the directory you've just extracted and run the `routr` command.
+To run the server change into the directory you've just extracted and run the `routr` command.
 
 To start the the server run this command:
 ```bash
 cd routr-1.0.0-rc2_linux-x64_bin && ./routr
 ```
 
-<walkthrough-footnote>Please wait for the server to launch and be sure to review output for some relevant information.</walkthrough-footnote>
+<walkthrough-footnote>Please wait for the server to launch and be sure to review the output for some relevant information.</walkthrough-footnote>
 
-Next, you will install the command-line tool.
+Next, install the command-line tool.
 
 ## Installing the Command-Line Tool
 
-The command-line tool will allow you to control and monitor the Routr instance. Please open an additional cloud shell and install the command-line.
+The command-line tool allows you to control and monitor the Routr instance. Please open a new cloud shell and install the command-line.
 
 <walkthrough-open-cloud-shell-button open-cloud-shell/>
 
 ### Install the command-line using npm
 
-Installing the npm package [routr-ctl](https://www.npmjs.com/package/routr-ctl) will provide you with the globally accessible `rctl` command. To install command-line tool run this command:
+Installing the npm package [routr-ctl](https://www.npmjs.com/package/routr-ctl) provides you with the globally accessible `rctl` command. To install command-line tool run this command:
 ```bash
 npm install -g routr-ctl
 ```
 
-Next, you will login to the server using the command-line tool.
+Next, log in to the server using the command-line tool.
 
 ## Login to the Routr instance using the Command-Line Tool
 
-To issue commands to your Routr instance you must first login.
+To issue commands to your Routr instance, you must first login.
 
-To login to your instance run this command:
+To login to your instance, run this command:
 ```bash
 rctl login -u admin -p changeit https://127.0.0.1:4567/api/v1beta1
 ```
 
-Next, you will issue some basic commands and launch the web UI.
+Next, issue some basic commands and launch the web UI.
 
 ## Issue basic commands
 
@@ -94,7 +94,7 @@ rctl get gateways
 
 ### Getting a list of domains
 
-To see the available domains in your Routr instance run this command:
+To see the available domains in your Routr instance, run this command:
 ```bash
 rctl get domains
 ```
@@ -113,10 +113,10 @@ You can now preview the <walkthrough-spotlight-pointer spotlightId="devshell-web
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
-You’re all set!
+You're all set!
 
 You can now install and run a Routr instance and issue some basic commands. 
 
-For more tutorials and information about Routr, refer to the [Routr Offical Website](https://routr.io/docs/overview).
+For more tutorials and information about Routr, refer to the [Routr Offical Website](https://routr.io/docs).
 
 **Don't forget to clean up after yourself**: If you created test projects, be sure to delete them to avoid unnecessary charges. Use `gcloud projects delete <PROJECT-ID>`.
