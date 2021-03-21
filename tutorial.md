@@ -28,7 +28,7 @@ The first step in running an instance of Routr is downloading the server.
 
 To download the server run this command:
 ```bash
-wget https://github.com/fonoster/routr/releases/download/1.0.0-rc4/routr-1.0.0-rc4_linux-x64_bin.tar.gz
+wget https://github.com/fonoster/routr/releases/download/1.0.0-rc5/routr-1.0.0-rc5_linux-x64_bin.tar.gz
 ```
 
 **Tip**: Click the copy button on the side of the code box and paste the command in the Cloud Shell terminal to run it.
@@ -37,7 +37,7 @@ wget https://github.com/fonoster/routr/releases/download/1.0.0-rc4/routr-1.0.0-r
 
 To extract the files, run this command:
 ```bash
-tar xvfz routr-1.0.0-rc4_linux-x64_bin.tar.gz
+tar xvfz routr-1.0.0-rc5_linux-x64_bin.tar.gz
 ```
 
 Next, you'll launch an instance of Routr server.
@@ -48,7 +48,7 @@ To run the server change into the directory you've just extracted and run the `r
 
 To start the the server run this command:
 ```bash
-cd routr-1.0.0-rc4_linux-x64_bin && ./routr
+cd routr-1.0.0-rc5_linux-x64_bin && ./routr
 ```
 
 <walkthrough-footnote>Please wait for the server to launch and be sure to review the output for some relevant information.</walkthrough-footnote>
